@@ -97,13 +97,32 @@
                 </div>
             </div>
 
+        </fieldset>
+
+
+        <fieldset class="padding">
+            <legend>Mensagem do Usuário</legend>
             <div class="row">
                 <div class="col-lg-7">
-                    <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-ok"></span> Enviar</button>
+                    <div class="form-group">
+                        <label>Grau de Urgência: </label>
+                        <input type="range" value="50" id="grauUrgencia" />
+                    </div>
                 </div>
-            </div>
 
+                <div class="form-group col-lg-7">
+                    <label for="mensagem">Mensagem: </label>
+                    <textarea class="form-control" rows="4" id="mensagem" placeholder="Escreva aqui a mensagem"></textarea>
+                </div>               
+            </div>
         </fieldset>
+
+        <div class="row padding">
+            <div class="col-lg-7">
+                <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-ok"></span> Enviar</button>
+            </div>
+        </div>
+
     </form>
 
     <footer>

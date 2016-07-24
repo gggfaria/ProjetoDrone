@@ -67,3 +67,13 @@ footer {
         color: white;
         font-family: roboto;
     }
+
+
+legend {
+    font-weight: bold;
+}
+
+textarea#mensagem {
+    max-height: 150px;
+    max-width: 100%;
+}
