@@ -8,6 +8,31 @@
     src: url(../_fonts/Roboto-Regular.ttf);
 }
 
+ul {
+    list-style: none;
+    text-transform: uppercase;
+}
+
+ul li {
+    /*background-color: #eeeeee;*/
+}
+
+a {
+    color: #242424;
+    font-family: roboto, sans-serif;
+    font-weight: bold;
+    font-size: 11pt;
+    text-decoration: none;
+}
+
+    a:hover {
+        background-color: #dddddd;
+    }
+
+    /*a.active {
+        border-bottom: 3px solid #cccccc;
+    }*/
+
 #tituloSite {
     font-size: 29pt;
     font-family: bubblegum;
@@ -19,6 +44,15 @@ h3#subtitulo {
     font-size: 15pt;
     font-family: bubblegum;
     color: #888888;
+}
+
+.tituloForm {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.padding {
+    padding: 15px 20px;
 }
 
 footer {
