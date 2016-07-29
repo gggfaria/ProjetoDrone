@@ -8,13 +8,14 @@
     src: url(../_fonts/Roboto-Regular.ttf);
 }
 
+/* HEADER */
+.navbar {
+    margin-bottom: 0 !important;
+}
+
 ul {
     list-style: none;
     text-transform: uppercase;
-}
-
-ul li {
-    /*background-color: #eeeeee;*/
 }
 
 a {
@@ -26,12 +27,12 @@ a {
 }
 
     a:hover {
-        background-color: #dddddd;
+        color: #AAAAAA;
     }
 
-    /*a.active {
-        border-bottom: 3px solid #cccccc;
-    }*/
+li.actived {
+    border-bottom: 3px solid #cccccc;
+}
 
 #tituloSite {
     font-size: 29pt;
@@ -45,16 +46,9 @@ h3#subtitulo {
     font-family: bubblegum;
     color: #888888;
 }
+/* FIM HEADER */
 
-.tituloForm {
-    font-size: 21px;
-    font-weight: bold;
-}
-
-.padding {
-    padding: 15px 20px;
-}
-
+/* FOOTER */
 footer {
     clear: both;
     background-color: #2c2c2c;
@@ -67,7 +61,23 @@ footer {
         color: white;
         font-family: roboto;
     }
+/* FIM FOOTER */
 
+form.container {
+    background-color: rgba(245, 245, 245, 0.3);
+    border-radius: 5px;
+}
+
+.tituloForm {
+    font-size: 21pt;
+    font-family: bubblegum;
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+}
+
+.padding {
+    padding: 18px 20px;
+}
 
 legend {
     font-weight: bold;
@@ -76,4 +86,11 @@ legend {
 textarea#mensagem {
     max-height: 150px;
     max-width: 100%;
+}
+
+img.imgTopo {
+    position: absolute;
+    right: 10px;
+    top: 10%;
+    
 }

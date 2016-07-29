@@ -24,19 +24,20 @@
                 </div>
                 <div class="navbar-collapse collapse navbar-right">
                     <ul class="nav navbar-nav">
-                        <li><a class="active" href="index.html">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="specs.html">Especificações</a></li>
                         <li><a href="fotos.html">Fotos</a></li>
                         <li><a href="multimidia.html">Multimídia</a></li>
-                        <li><a href="fale-conosco.html">Fale conosco</a></li>
+                        <li class="actived"><a href="fale-conosco.html">Fale conosco</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
 
+    <img class="imgTopo" src="_images/contato.png" />
+
     <div class="container-fluid">
-        <!--<h1 id="tituloSite">DRONE</h1>-->
         <h3 id="subtitulo">A revolução será sobrevoada</h3>
         <hr />
         <ol class="breadcrumb">
@@ -106,7 +107,7 @@
                 <div class="col-lg-7">
                     <div class="form-group">
                         <label>Grau de Urgência: </label>
-                        <input type="range" value="50" id="grauUrgencia" />
+                        <input type="range" value="5" min="0" max="10" step="5" id="grauUrgencia" />
                     </div>
                 </div>
 
@@ -124,7 +125,7 @@
         </div>
 
     </form>
-
+    <br/>
     <footer>
         <p>
             Copyright 2016 - FATEA<br />
