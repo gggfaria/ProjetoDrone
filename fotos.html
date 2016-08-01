@@ -36,9 +36,11 @@
     </header>
 
     <div class="container-fluid">
-        <h1 id="tituloSite">DRONE</h1>
         <h3 id="subtitulo">A revolução será sobrevoada</h3>
         <hr />
+        <br />
+        <img class="imgTopo" src="_images/fotos.png" />
+
         <ol class="breadcrumb">
             <li><a href="index.html">Home</a></li>
             <li class="active">Fotos</li>
@@ -83,21 +85,6 @@
                 </ol>
             </div>
         </section>
-
-        <!--<div class="row">
-            <section class="col-md-12">
-                <figure class="col-lg-4">
-                    <img src="_images/drone-diversao.png" class="img-thumbnail img-responsive img-drone" />
-                </figure>
-                <figure class="col-lg-4">
-                    <img src="_images/drone-delivery.png" class="img-thumbnail img-responsive  img-drone" />
-                </figure>
-                <figure class="col-lg-4">
-                    <img src="_images/drone-monitoramento.png" class="img-thumbnail img-responsive  img-drone" />
-                </figure>
-            </section>-->
-
-
     </div>
 
     <footer>
@@ -109,6 +96,16 @@
 
     <script src="_js/jquery-1.12.3.js"></script>
     <script src="_js/bootstrap.min.js"></script>
+
+
+    <style>
+        @media (max-width: 530px) {
+            .imgTopo {
+                display: none;
+            }
+        }
+    </style>
+
     <script>
         // Stop carousel
         $('.carousel').carousel({

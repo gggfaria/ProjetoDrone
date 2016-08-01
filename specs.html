@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <link href="_css/bootstrap.min.css" rel="stylesheet" />
     <link href="_css/bootstrap-theme.min.css" rel="stylesheet" />
-    <link href="_css/form.css" rel="stylesheet" />
+    <link href="_css/specs.css" rel="stylesheet" />
 </head>
 <body>
     <header>
@@ -35,34 +35,50 @@
     </header>
 
     <div class="container-fluid">
-        <h1 id="tituloSite">DRONE</h1>
         <h3 id="subtitulo">A revolução será sobrevoada</h3>
         <hr />
+        <br/>
+        <img class="imgTopo" src="_images/especificacoes.png" />
+
         <ol class="breadcrumb">
             <li><a href="index.html">Home</a></li>
             <li class="active">Especificações</li>
         </ol>
 
-        <h4 class="tituloForm">Raio-X do drone</h4>
-
+        <h4 class="tituloNoticia">Raio-X do drone</h4>
+        <div class="row">
+            <div class="col-md-10">
+                <article>
+                    <p>
+                        Imagine segurar o futuro nas suas mãos. Criado para ser leve e potente, flexivel e estável, este é o drone mais avançado do mercado até o momento.
+                    </p>
+                    <p>
+                        Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos deste Drone. Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.
+                    </p>
+                </article>
+            </div>
+        </div>
 
         <div class="row">
-            <section class="col-md-4 col-md-5">
+            <div class="col-md-5">
                 <figure>
                     <img src="_images/drone-specs.jpg" class="img-thumbnail" />
                 </figure>
-            </section>
-            <article class="col-md-7">
-                <p>
-                    Imagine segurar o futuro nas suas mãos. Criado para ser leve e potente, flexivel e estável, este é o drone mais avançado do mercado até o momento.
-                </p>
-                <p>
-                    Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos deste Drone. Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.
-                </p>
-            </article>
+            </div>
+
+            <div class="col-md-6">
+                <article>
+                    <h2>Nova Camera 4K</h2>
+                    <p>
+                        FDR-X1000V, o mais novo modelo da linha Action Cam da Sony, combina todas as funcionalidades que os usuários esperam. A qualidade de imagem 4K é igual à dos atuais sucessos de Hollywood, e o codec XAVC profissional garante lindas imagens gravadas com alta taxa de bits2. Além disso, os recursos como Highlight Movie Maker3 ajudam você a transformar suas imagens em deslumbrantes obras-primas.
+                    </p>
+                </article>
+            </div>
 
         </div>
+
     </div>
+
 
     <footer>
         <p>
@@ -70,6 +86,14 @@
             <strong>Projetos e Desenvolvimento de Aplicações Web - Fundamentos Web</strong>
         </p>
     </footer>
+
+    <style>
+        @media (max-width: 530px) {
+            .imgTopo {
+                display: none;
+            }
+        }
+    </style>
 
     <script src="_js/jquery-1.12.3.js"></script>
     <script src="_js/bootstrap.min.js"></script>
